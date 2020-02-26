@@ -5,8 +5,13 @@ version with a .huf extension. The decompressor will be a web server that will l
 decode as they are being sent to your web browser.
 # Included files:
 - util.py
-
-
+- bitio.py
+- huffman.bmp
+- huffman.bmp.huf
+- huffman.py
+- index.html
+- index.html.huf
+- webserver.py
 # Running instructions:
 Decompression:
 - Move the util.py file to a directory containing the __pycache_ file, the wwwroot file, the bitio.py, the compress.py, webserver.py and huffman.py.
